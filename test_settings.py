@@ -6,7 +6,7 @@ DATABASES = {
 }
 
 INSTALLED_APPS = [
-    'captcha',
+    'recaptcha',
 ]
 
 RECAPTCHA_PRIVATE_KEY = 'privkey'

@@ -1,19 +1,22 @@
-from setuptools import setup, find_packages
+# -*- coding: utf-8 -*-
 
+from setuptools import setup, find_packages
+from recaptcha import __version__
 
 long_desc = open('README.rst', 'rb').read().decode('utf-8') + '\n\n' + \
             open('AUTHORS.rst', 'rb').read().decode('utf-8') + '\n\n' + \
             open('CHANGELOG.rst', 'rb').read().decode('utf-8')
 setup(
-    name='django-recaptcha',
-    version='1.4.0',
-    description='Django recaptcha form field/widget app.',
+    name='js-recaptcha',
+    version=__version__,
+    description=open('README.rst').read(),
+    author='Compound Partners Ltd',
+    author_email='hello@compoundpartners.co.uk',
     long_description=long_desc,
-    author='Praekelt Consulting',
-    author_email='dev@praekelt.com',
-    license='BSD',
-    url='http://github.com/praekelt/django-recaptcha',
+    license='GPLv3',
+    url='https://github.com/compoundpartners/js-recaptcha',
     packages=find_packages(),
+    platforms=['OS Independent'],
     install_requires=[
         'django',
     ],
@@ -21,7 +24,6 @@ setup(
         'django-setuptest>=0.2.1',
     ],
     test_suite="setuptest.setuptest.SetupTestSuite",
-    include_package_data=True,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Framework :: Django :: 2.0',
@@ -37,5 +39,6 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',
     ],
+    include_package_data=True,
     zip_safe=False,
 )

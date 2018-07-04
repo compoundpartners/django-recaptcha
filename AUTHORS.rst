@@ -24,3 +24,7 @@ Other
 * `pbf <https://github.com/pbf>`_
 * `Alexey Subbotin <https://github.com/dotsbb>`_
 * `Sean Stewart <https://github.com/mindcruzer>`_
+
+Compound Partners LTD
+---------------------
+* `Singh <https://github.com/compoundpartners>`_

@@ -1,4 +1,4 @@
-Django reCAPTCHA
+Jumpsuite reCAPTCHA
 ================
 **Django reCAPTCHA form field/widget integration app.**
 
@@ -28,7 +28,7 @@ Installation
 
 #. Install with ``pip install django-recaptcha``.
 
-#. Add ``'captcha'`` to your ``INSTALLED_APPS`` setting.
+#. Add ``'recaptcha'`` to your ``INSTALLED_APPS`` setting.
 
 #. Add the keys reCAPTCHA have given you to your Django production settings (leave development settings blank to use the default test keys) as
    ``RECAPTCHA_PUBLIC_KEY`` and ``RECAPTCHA_PRIVATE_KEY``. For example:
@@ -67,7 +67,7 @@ the field validating itself without any further action required. For example:
 .. code-block:: python
 
     from django import forms
-    from captcha.fields import ReCaptchaField
+    from recaptcha.fields import ReCaptchaField
 
     class FormWithCaptcha(forms.Form):
         captcha = ReCaptchaField()

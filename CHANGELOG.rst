@@ -5,6 +5,11 @@ Pending
 -------
 #. New release notes go here.
 
+1.0.0 (2018-07-04)
+------------------
+
+#. First release of js-reCAPTCHA (Fork of django-reCAPTCHA).
+
 1.4.0 (2018-02-08)
 ------------------
 

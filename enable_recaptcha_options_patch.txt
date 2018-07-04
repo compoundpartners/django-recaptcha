@@ -1,7 +1,7 @@
-Index: captcha.py
+Index: recaptcha.py
 ===================================================================
---- captcha.py	(revision 151)
-+++ captcha.py	(working copy)
+--- recaptcha.py	(revision 151)
++++ recaptcha.py	(working copy)
 @@ -1,8 +1,8 @@
  import urllib2, urllib
  

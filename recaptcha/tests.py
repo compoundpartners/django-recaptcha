@@ -1,7 +1,7 @@
 import os
 import unittest
 
-from captcha import fields
+from recaptcha import fields
 from django.forms import Form
 
 
